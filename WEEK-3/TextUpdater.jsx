@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-// 1. TextUpdater Component
 function TextUpdater() {
     const [text, setText] = useState("");
     return (
@@ -15,3 +14,4 @@ function TextUpdater() {
         </div>
     );
 }
+export default TextUpdater;
