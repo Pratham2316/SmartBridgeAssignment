@@ -1,5 +1,6 @@
+/* SimpleForm.jsx */
 import { useState } from "react";
-// 2. Form Component
+
 function SimpleForm() {
     const [inputValue, setInputValue] = useState("");
     const handleSubmit = (e) => {
@@ -18,3 +19,4 @@ function SimpleForm() {
         </form>
     );
 }
+export default SimpleForm;
