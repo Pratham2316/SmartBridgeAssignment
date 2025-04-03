@@ -1,5 +1,4 @@
-import { useState } from "react";
-// 3. UserCard Component
+/* UserCard.jsx */
 function UserCard({ name, email }) {
     return (
         <div className="border p-4 rounded-lg shadow-md w-64">
@@ -8,3 +7,4 @@ function UserCard({ name, email }) {
         </div>
     );
 }
+export default UserCard;
