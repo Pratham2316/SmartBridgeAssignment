@@ -1,5 +1,4 @@
-import { useState } from "react";
-// 4. Button Component
+/* CustomButton.jsx */
 function CustomButton() {
     return (
         <button 
@@ -10,3 +9,4 @@ function CustomButton() {
         </button>
     );
 }
+export default CustomButton;
